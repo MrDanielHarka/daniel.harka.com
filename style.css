@@ -1,1 +1,1 @@
-html{margin-left: calc(100vw - 100%); margin-right: 0;}body{margin: 5px auto; max-width: 550px; line-height: 1.6; font-size: 17px;}a,a:visited{color: green; text-decoration: none;}
+html{margin-left: calc(100vw - 100%); margin-right: 0;}body{margin: 5px auto; max-width: 550px; line-height: 1.6; font-size: 17px; padding: 0 10px;}a,a:visited{color: #080; text-decoration: none;}
