@@ -1,15 +1,19 @@
 # Q2 Értékelés jegyzetei
 
 **Miben változtál/fejlődtél az előző negyedévhez képest?**
+
 Bootstrap. EJS is már elég jól megy. Laravel-t is tanultam. SmartDisk, SimpleFlow.
 
 **A korábbi személyes fejlődési terved alapján értékeld a Q2-es fejlődésed haladását.**
-Szerintem rengeteget fejlődtem a Bootstrap használatában. 
+
+Szerintem rengeteget fejlődtem a Bootstrap használatában.
 
 **A vállalati értékek hogyan jelennek meg a mindennapjaidban (szaktudás fejlesztése, proaktivitás és együttműködés, őszinte-nyílt kommunikáció)?**
-Szerintem nyíltan, őszintén és egyenesen kommunikálok a kollégáimmal. A tudásomat folyamatosan fejlesztem a szabadidőmben is. Szerintem elég proaktív is vagyok. 
+
+Szerintem nyíltan, őszintén és egyenesen kommunikálok a kollégáimmal. A tudásomat folyamatosan fejlesztem a szabadidőmben is. Szerintem elég proaktív is vagyok.
 
 **Mit fogsz tenni annak érdekében, hogy a vállalati értékeket napi szinten működtesd a munkádban?**
+
 Követem az eddig is alkalmazott jó convention-öket és igyekszem elsajátítani az újakat.
 
 **Mi jelentette a legnagyobb kihívást számodra az előző negyedévben?**
@@ -17,6 +21,7 @@ Követem az eddig is alkalmazott jó convention-öket és igyekszem elsajátíta
 A Shopify. Egyszerűen nagyon nehezen igazodtam ki abban a katyvasz kódban. Az EJS is nagy falat volt, de azt nagyon élveztem tanulni.
 
 **Mi lesz a fókuszterületed a következő negyedévben?**
+
 A Chrome DevTools megismerése jobban.
 
 **Mi az, amit nem csinálsz többet, vagy nem folytatod és mit vezetsz be, mint új cselekvés a Q3-ban?**
