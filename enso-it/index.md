@@ -1,4 +1,4 @@
 # Enso IT
 
-- [Q3 Prezi](q3-prezi)
-- [Q2 Prezi](q2-prezi)
+- [Q3 Prezi](2022-q3-prezi)
+- [Q2 Prezi](2022-q2-prezi)
