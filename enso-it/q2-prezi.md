@@ -1,4 +1,4 @@
-# Q2 Értékelés jegyzetei
+# Q2 értékelés jegyzetei
 
 **Miben változtál/fejlődtél az előző negyedévhez képest?**
 
