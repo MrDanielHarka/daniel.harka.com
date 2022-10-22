@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="burgle.js" defer></script>
+    <title>Document</title>
+    <style>
+      body {
+        text-align: center;
+        max-width: 170px;
+        margin: auto;
+      }
+      main {
+        padding-top: 200px;
+        transform: scale(1.25);
+      }
+
+      input {
+        width: 100px;
+        text-align: center;
+      }
+
+      button {
+        min-width: 50px;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Burgle Bros 7x7 Generator</h1>
+      <div>Üres:</div>
+      <input id="input" />
+      <br /><br />
+      <button id="button1">Push</button>
+      <button id="button2">Push</button>
+    </main>
+  </body>
+  <script>
+    let randomNumber = () => {
+        return Math.floor(Math.floor(Math.random() * 7));
+      },
+      letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G'],
+      numbers = [1, 2, 3, 4, 5, 6, 7],
+      generateTile = () => {
+        let tileNumber;
+        tileNumber = letters[randomNumber()] + numbers[randomNumber()];
+        while (input.value.toUpperCase() === tileNumber) {
+          tileNumber = letters[randomNumber()] + numbers[randomNumber()];
+        }
+        console.log(tileNumber);
+        return tileNumber;
+      };
+
+    button1.addEventListener('click', () => {
+      button1.textContent = generateTile();
+    });
+
+    button2.addEventListener('click', () => {
+      button2.textContent = generateTile();
+    });
+  </script>
+</html>
