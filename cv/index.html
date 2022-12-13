@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -49,10 +49,16 @@
         display: inline;
       }
 
-      .righty {
-        float: right;
-        margin: 10px;
+      .me {
         border-radius: 50%;
+        display: block;
+        margin: auto;
+      }
+
+      @media only screen and (min-width: 555px) {
+        .me {
+          float: right;
+        }
       }
 
       .lefty {
@@ -83,13 +89,13 @@
   </head>
   <body>
     <center>
-      <a href="..">daniel.harka.com</a>
+      <a href="/">daniel.harka.com</a>
       |
-      <a href="work">work</a>
+      <a href="/work">work</a>
       |
-      <a href="blog">blog</a>
+      <a href="/blog">blog</a>
       |
-      <a href="info">info</a>
+      <a href="/info">info</a>
       <hr noshade />
       <h1>CVs and Resumes</h1>
     </center>
@@ -97,23 +103,23 @@
       <h2>Introduction</h2>
 
       <p>
-        I do freelance web development, but I might be interested in a developer
-        role. You can find my resume, recommendations, skills and other details
-        below. My cover letter and a short video introduction is also in
-        progress.
+        I do freelance web development, but it is my dream to relocate to
+        Vienna, Austria and have a full time developer position there. You can
+        find my resume, recommendations, skills and other details below. My
+        cover letter and a short video introduction is also in progress.
       </p>
 
       <h2>For Download</h2>
       <div>
         <b>Resume:</b>
-        <a href="cv/daniel-harka-cv.pdf" target="_blank">pdf</a>,
-        <a href="cv/daniel-harka-cv.docx" target="_blank">word</a>
+        <a href="daniel-harka-cv.pdf" target="_blank">pdf</a>,
+        <a href="daniel-harka-cv.docx" target="_blank">word</a>
         <br />
         <b>References:</b>
-        <a href="cv/daniel-harka-reference.pdf" target="_blank">pdf</a>,
-        <a href="cv/daniel-harka-reference2.pdf" target="_blank">pdf2</a>,
-        <a href="cv/daniel-harka-reference3.pdf" target="_blank">pdf3</a>,
-        <a href="cv/daniel-harka-reference4.pdf" target="_blank">pdf4</a>
+        <a href="daniel-harka-reference.pdf" target="_blank">pdf</a>,
+        <a href="daniel-harka-reference2.pdf" target="_blank">pdf2</a>,
+        <a href="daniel-harka-reference3.pdf" target="_blank">pdf3</a>,
+        <a href="daniel-harka-reference4.pdf" target="_blank">pdf4</a>
         <br />
         <!-- <b>Cover Letter:</b>
         <a href="#" target="_blank">pdf</a>,
@@ -121,7 +127,7 @@
         <br /> -->
         <!-- <b>Short Video:</b>
         <a
-          href="cv/daniel-harka-video-eng.mp4"
+          href="daniel-harka-video.mp4"
           target="_blank"
          
           >mp4</a
@@ -136,8 +142,8 @@
 
       <h2>Online Content</h2>
       <img
-        class="righty"
-        src="img/daniel-harka.jpg"
+        class="me"
+        src="/img/daniel-harka.jpg"
         width="200"
         alt="Daniel Harka (Harka Dániel)"
       />
@@ -352,7 +358,7 @@
       <hr noshade />
       <img
         class="lefty"
-        src="img/csaba.jpg"
+        src="/img/csaba.jpg"
         alt="Csaba Kis"
         width="70"
         loading="lazy"
@@ -364,12 +370,12 @@
         <br />
         <br />
         <em>Full recommendation: </em
-        ><a href="cv/daniel-harka-reference.pdf" target="_blank">pdf</a
+        ><a href="daniel-harka-reference.pdf" target="_blank">pdf</a
         ><br /><br />
       </p>
       <img
         class="lefty"
-        src="img/lidia.jpg"
+        src="/img/lidia.jpg"
         alt="Lidia Vincze"
         width="70"
         loading="lazy"
@@ -381,12 +387,12 @@
         <br />
         <br />
         <em>Full recommendation: </em
-        ><a href="cv/daniel-harka-reference2.pdf" target="_blank">pdf</a
+        ><a href="daniel-harka-reference2.pdf" target="_blank">pdf</a
         ><br /><br />
       </p>
       <img
         class="lefty"
-        src="img/virag.jpg"
+        src="/img/virag.jpg"
         alt="Virag Kiss"
         width="70"
         loading="lazy"
@@ -398,12 +404,12 @@
         <br />
         <br />
         <em>Full recommendation: </em
-        ><a href="cv/daniel-harka-reference3.pdf" target="_blank">pdf</a
+        ><a href="daniel-harka-reference3.pdf" target="_blank">pdf</a
         ><br /><br />
       </p>
       <img
         class="lefty"
-        src="img/inge.jpg"
+        src="/img/inge.jpg"
         alt="Inge Roysland"
         width="70"
         loading="lazy"
@@ -414,7 +420,7 @@
         <br />
         <br />
         <em>Full recommendation: </em
-        ><a href="cv/daniel-harka-reference4.pdf" target="_blank">pdf</a
+        ><a href="daniel-harka-reference4.pdf" target="_blank">pdf</a
         ><br /><br />
       </p>
       <!-- <br />
@@ -428,9 +434,6 @@
       <br />
       <h3 class="bold green">Cover Letter #GetToKnowMe</h3>
       <hr noshade />-->
-      <br /><br />
-
-      <p class="center"><b>Page updated on:</b> 16.09.2022. 07:12</p>
     </main>
 
     <!-- <p>
