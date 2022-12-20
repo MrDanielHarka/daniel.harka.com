@@ -39,16 +39,13 @@
       <a href="/">daniel.harka.com</a> | <a href="#">up ↑</a>
     </center>
     <script>
-      const xhttp = new XMLHttpRequest();
-      xhttp.open(
+      const xhr = new XMLHttpRequest();
+      xhr.open(
         'POST',
         'https://docs.google.com/forms/u/1/d/e/1FAIpQLScZCRD7ynRbuG-tkQT5FcicxK8Bii6impvbQTFCb-wLW1YVSA/formResponse'
       );
-      xhttp.setRequestHeader(
-        'Content-type',
-        'application/x-www-form-urlencoded'
-      );
-      xhttp.send(`entry.1799968402=${window.location.href}`);
+      xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+      xhr.send(`entry.1799968402=${window.location.href}`);
     </script>
   </body>
 </html>
