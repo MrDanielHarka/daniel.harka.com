@@ -1,0 +1,10 @@
+Dear Sir/Madam,
+
+I am writing to express my interest in working as a web developer at your company, based in Vienna, Austria. As someone who has always dreamed of living and working in this beautiful city, I am excited about the opportunity to join your team and contribute my skills and experience to the growth of your business.
+
+I have a strong background in web development, with particular expertise in HTML, CSS, SCSS, Bootstrap, and JavaScript. I have also gained some knowledge of TypeScript and Angular, and I am eager to continue learning and expanding my skill set. While I have mostly focused on frontend development, I am also interested in transitioning to fullstack work in the long run, as I am particularly interested in understanding how things work under the hood.
+
+I am highly motivated and willing to do whatever it takes to succeed in this role. I am confident that my skills and dedication make me a strong candidate for this position, and I am excited about the opportunity to relocate to Vienna and be a part of your team. Thank you for considering my application. I look forward to discussing my qualifications in more detail and how I can contribute to your company's success.
+
+Sincerely,
+Daniel Harka
