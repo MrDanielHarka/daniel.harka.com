@@ -30,7 +30,7 @@
       daniel.harka.com
     </title>
     <style>
-      label {
+      summary {
         color: #080;
         cursor: crosshair;
         -webkit-touch-callout: none;
@@ -38,20 +38,15 @@
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
-        text-align: center;
       }
-      label div,
-      label input {
-        display: none;
+      details {
         width: 100vw;
         position: relative;
         left: 50%;
         right: 50%;
         margin-left: -50vw;
         margin-right: -50vw;
-      }
-      label input:checked + div {
-        display: block;
+        text-align: center;
       }
       img {
         max-width: 100%;
@@ -72,13 +67,15 @@
         optio illo illum vel.
       </p>
 
-      <label>
-        Toggle image
-        <input type="checkbox" />
+      <details>
+        <summary>Toggle image</summary>
         <div>
           <img src="https://harka.com/img/sara-harka.jpg" loading="lazy" />
         </div>
-      </label>
+        <div>
+          <img src="https://harka.com/img/daniel-harka.jpg" loading="lazy" />
+        </div>
+      </details>
 
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa pariatur
@@ -91,13 +88,12 @@
         dicta unde! Quod?
       </p>
 
-      <label>
-        Image: Enabling the Google Sheets API
-        <input type="checkbox" />
+      <details>
+        <summary>Image: Enabling the Google Sheets API</summary>
         <div>
           <img src="https://harka.com/img/daniel-harka.jpg" loading="lazy" />
         </div>
-      </label>
+      </details>
 
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
@@ -108,29 +104,32 @@
         et repudiandae eos officiis in. Dolor, fugiat.
       </p>
 
-      <label>
-        Toggle image
-        <input type="checkbox" />
+      <details>
+        <summary>Code: How to embed Google Sheets JSON</summary>
         <div>
           <img
             src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/hero.jpg"
             loading="lazy"
           />
         </div>
-      </label>
+      </details>
 
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos facilis
         ipsum unde ea labore cupiditate?
       </p>
 
-      <label>
-        Toggle image
-        <input type="checkbox" />
-        <div>
-          <img src="site-pic.jpg" loading="lazy" />
-        </div>
-      </label>
+      <details>
+        <summary>Toggle image</summary>
+        <pre>
+               This text is
+         in a fixed-pitch
+               font, and it preserves
+         both    spaces and line breaks
+      </pre
+        >
+        <img src="site-pic.jpg" loading="lazy" />
+      </details>
     </main>
 
     <center>
